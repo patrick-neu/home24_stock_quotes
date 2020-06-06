@@ -1,4 +1,4 @@
-# Stock quotes for home24 SE
+# Stock Quotes for home24 SE
 
 **Version 1.0.0**
 
