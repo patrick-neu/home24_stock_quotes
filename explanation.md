@@ -10,7 +10,7 @@ For the Alpha Vantage API query, I used the following endpoint and path:
 
 `https://www.alphavantage.co/query?`
 
-To retrieve content from a "Daily Adjusted" ["Daily Adjusted"](https://www.alphavantage.co/documentation/) query for home24 the required parameters are `function=TIME_SERIES_DAILY_ADJUSTED`, `symbol` and `apikey`. To find the `symbol` value for home24, I conducted a ["Search Endpoint"](https://www.alphavantage.co/documentation/) query with the parameters `function=SYMBOL_SEARCH`, `keywords=home24` and `apikey`. The two best matches were:
+To retrieve content from a ["Daily Adjusted"](https://www.alphavantage.co/documentation/) query for home24 the required parameters are `function=TIME_SERIES_DAILY_ADJUSTED`, `symbol` and `apikey`. To find the `symbol` value for home24, I conducted a ["Search Endpoint"](https://www.alphavantage.co/documentation/) query with the parameters `function=SYMBOL_SEARCH`, `keywords=home24` and `apikey`. The two best matches were:
 
 ![Search Endpoint Query](search_endpoint_query.png)
 
